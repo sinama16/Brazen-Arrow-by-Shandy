@@ -1,0 +1,98 @@
+body{
+margin: 0;
+/*font-family: 'Praise', cursive;
+font-family: 'Rye', cursive;
+
+/*Back Image*/
+/*background-image: url(assets/farmhouse.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+/*background-position: center;*/
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: 1fr 5fr 1fr;
+    grid-template-columns: 90vw 50vw;
+    height: 90vh;
+    width: 100%;
+    }
+
+.header-flex{
+    text-align: center;
+    font-family: 'Praise', cursive;
+    font-family: 'Rye', cursive;
+    background-color: rgba(220, 220, 220, 0.76);
+}
+nav a {
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+    margin: 0 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover{
+    color: teal;
+}
+
+.profile-img{
+    padding-left: 50px;
+    border-radius: 50%;
+}
+
+.main-container {
+    grid-column: 2/3;
+    grid-row: 2;
+    height: 150vh;
+    background-image: url(assets/coffeesunflower.jpeg);
+    background-size: cover;
+    font-family: 'Style Script', cursive;
+    text-align: right;
+    color: teal;
+    font-size: 78px;
+    padding-top: 30px;
+    padding-right: 205px;
+}
+
+.sidebar-container {
+    grid-column: 1/2;
+    grid-row: 2;
+    padding: 10px;
+    background-color: rgba(175, 238, 238, 0.829);
+}
+
+.sidebar-tagline {
+    font-size: 30px;
+    font-family: 'Praise', cursive;
+    font-family: 'Rye', cursive;
+    text-align: center;
+    line-height: 25px;
+    color:#333;
+    padding: 30px 30px 10px 30px;
+}
+
+.bottom-container {
+    grid-column: 2/3;
+    grid-row: 3;
+    font-size: 15px;
+    font-family: 'Praise', cursive;
+    font-family: 'Rye', cursive;
+    text-align: center;
+    padding-bottom: 60px;
+
+
+}
+.bottom-img {
+    align-items: center;
+
+}
+
+
+
